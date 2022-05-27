@@ -1,0 +1,16 @@
+{
+    "data": [
+        {
+            "id": "24454646463545",
+            "description": "SERVICIOS CABINAS",
+            "internalCode": "0020211916",
+            "isActive": true
+        },
+        {
+            "id": "24454646468899",
+            "description": "INTERNET CABINAS",
+            "internalCode": "0020211999",
+            "isActive": true
+        }
+    ]
+}

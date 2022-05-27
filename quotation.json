@@ -1,0 +1,132 @@
+{
+    "holder": {
+        "id": "45443344",
+        "contactDetails": [
+            {
+                "id": "45654345",
+                "contact": {
+                    "contactType": "MOBILE",
+                    "number": 948594839,
+                    "country": {
+                        "id": "PE"
+                    },
+                    "phoneCompany": {
+                        "id": "CLARO"
+                    }
+                }
+            }
+        ]
+    },
+    "properties": [
+        {
+            "usabilityType": {
+                "id": "US00001"
+            },
+            "buildMaterialTypes": [
+                {
+                    "id": "CONCRETE"
+                }
+            ],
+            "insuredCapitals": [
+                {
+                    "id": "BUILDINGS",
+                    "insuredAmount": {
+                        "amount": 500000,
+                        "currency": "PEN"
+                    }
+                }
+            ],
+            "buildingAge": 10,
+            "floorsNumber": 7,
+            "basementLevels": 3,
+            "riskLocations": [
+                {
+                    "riskType": {
+                        "id": "WATERBODY"
+                    },
+                    "distance": {
+                        "value": 3444,
+                        "measurementUnit": {
+                            "id": "METERS"
+                        }
+                    }
+                }
+            ],
+            "address": {
+                "location": {
+                    "addressComponents": [
+                        {
+                            "code": "01239",
+                            "componentTypes": [
+                                "ZIP_CODE"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "holderType": {
+                "id": "OWNER"
+            }
+        }
+    ],
+    "validityPeriod": {
+        "startDate": "2022-05-12"
+    },
+    "product": {
+        "id": "P000001",
+        "plan": {
+            "id": "PL00001",
+            "totalInstallment": {
+                "amount": 1000,
+                "currency": "PEN",
+                "frequency": {
+                    "id": "MONTHLY",
+                    "name": "Mensual"
+                }
+            },
+            "installmentPlans": [
+                {
+                    "paymentsTotalNumber": 5,
+                    "paymentAmount": {
+                        "amount": 2000,
+                        "currency": "PEN"
+                    },
+                    "frequency": {
+                        "id": "MONTHLY",
+                        "name": "Mensual"
+                    }
+                }
+            ],
+            "coverages": [
+                {
+                    "id": "C000001",
+                    "coverageFee": {
+                        "percentageValue": 75,
+                        "paymentAmount": {
+                            "amount": 150000,
+                            "currency": "PEN"
+                        },
+                        "unit": {
+                            "unitType": "TEXT",
+                            "text": "COBERTURA AL 75 POR CIENTO"
+                        }
+                    },
+                    "coverageGroup": {
+                        "id": ""
+                    }
+                }
+            ],
+            "benefits": [
+                {
+                    "id": "C000001"
+                }
+            ],
+            "exclusions": [
+                {
+                    "id": "E000001"
+                }
+            ]
+        }
+    },
+    "externalQuotationId": "983330002"
+}

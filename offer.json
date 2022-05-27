@@ -1,0 +1,128 @@
+{
+    "data": {
+        "id": "0064",
+        "offerType": {
+            "id": "MULTIRISK_BUSINESS_INSURANCE_CONTRACTING",
+            "name": "Contratacion de seguro multiriesgo negocio"
+        },
+        "origin": {
+            "id": "01",
+            "description": "Listado de campanas"
+        },
+        "suggestedPaymentOption": {
+            "frequency": {
+                "id": "MONTHLY",
+                "name": "Mensual"
+            },
+            "paymentAmount": {
+                "amount": 79,
+                "currency": "PEN"
+            }
+        },
+        "insuranceCompany": {
+            "id": "01",
+            "name": "Rimac"
+        },
+        "image": {
+            "id": "IMAGEN_CABECERA_DETALLE",
+            "name": "Multi-risk insurance image",
+            "links": [
+                {
+                    "href": "/image.jpg",
+                    "rel": "image_src"
+                }
+            ]
+        },
+        "product": {
+            "id": "01825",
+            "name": "Seguro Multiriesgo Negocio",
+            "plan": {
+                "id": "05",
+                "name": "Seguro Multiriesgo Negocio Cobertura Hasta 120,000",
+                "conditions": [
+                    {
+                        "id": "CC001",
+                        "description": "Requisito",
+                        "category": "CONDITION",
+                        "formats": [
+                            {
+                                "format": {
+                                    "formatType": "TEXT",
+                                    "text": "Retirar todo cableado temporal u obsoleto, empalmes provisionales, alambres gastados, pelados y/o en mal estado, enchufes rotos, que por su condición agraven el riesgo de incendio por cortocircuito y/o generación de chispas eléctricas"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "CD001",
+                        "description": "Seguro que ofrece un reembolso del 10% de las primas pagadas.",
+                        "category": "DESCRIPTION",
+                        "formats": [
+                            {
+                                "format": {
+                                    "formatType": "PERCENTAGE",
+                                    "percentage": 10
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "CX001",
+                        "description": "protegemos a clientes y empleados en caso accidentes o daños personales en el negocio. Todos los planes: hasta",
+                        "category": "CHARACTERISTIC",
+                        "formats": [
+                            {
+                                "format": {
+                                    "formatType": "AMOUNT",
+                                    "amount": 100000,
+                                    "currency": "PEN"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "coverages": [
+                    {
+                        "id": "C001",
+                        "description": "incendio, rayo, explosión, daños por agua, impacto de humos,impacto de vehículos, caída de aeronaves. Hasta",
+                        "unit": {
+                            "unitType": "AMOUNT",
+                            "amount": 12000,
+                            "currency": "PEN"
+                        }
+                    }
+                ],
+                "exclusions": [
+                    {
+                        "id": "B001",
+                        "description": "BIENES EXCLUIDOS",
+                        "unit": {
+                            "unitType": "TEXT",
+                            "text": "Relojes de uso personal, perlas, piedras o metales preciosos, muebles u objetos que tengan especial valor artístico, científico o histórico"
+                        }
+                    }
+                ],
+                "benefits": [
+                    {
+                        "id": "B001",
+                        "description": "En caso de accidentes",
+                        "unit": {
+                            "unitType": "TEXT",
+                            "text": "Protege tu negocio contra incendios, daños por agua, etc., con solo una firma"
+                        }
+                    }
+                ],
+                "restrictions": [
+                    {
+                        "id": "R001",
+                        "description": "GIROS DEL NEGOCIO DE ALTO RIESGO",
+                        "unit": {
+                            "unitType": "TEXT",
+                            "text": "actividad del negocio de empresas de alto riesgo no es cubierto por el seguro."
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

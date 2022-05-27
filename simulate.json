@@ -1,0 +1,76 @@
+{
+    "properties": [
+        {
+            "riskLocations": [
+                {
+                    "riskType": {
+                        "id": "WATERBODY"
+                    },
+                    "distance": {
+                        "value": 5000,
+                        "measurementUnit": {
+                            "id": "METERS"
+                        }
+                    }
+                }
+            ],
+            "usabilityType": {
+                "id": "U00001"
+            },
+            "insuredCapitals": [
+                {
+                    "id": "BUILDINGS",
+                    "insuredAmount": {
+                        "amount": 500000,
+                        "currency": "PEN"
+                    }
+                }
+            ],
+            "holderType": {
+                "id": "OWNER"
+            }
+        }
+    ],
+    "holder": {
+        "id": "45230987"
+    },
+    "product": {
+        "id": "P000001",
+        "plans": [
+            {
+                "id": "PL00001",
+                "coverages": [
+                    {
+                        "id": "C000001",
+                        "coverageFees": [
+                            {
+                                "percentageValue": 75,
+                                "paymentAmount": {
+                                    "amount": 150000,
+                                    "currency": "PEN"
+                                },
+                                "unit": {
+                                    "unitType": "TEXT",
+                                    "text": "COBERTURA AL 75 POR CIENTO"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "externalSimulationId": "21435764445242",
+    "bank": {
+        "id": "00034343",
+        "branch": {
+            "id": "34234234"
+        }
+    },
+    "businessAgent": {
+        "id": "423423234"
+    },
+    "businessLine": {
+        "id": "BL0001"
+    }
+}
